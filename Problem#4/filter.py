@@ -7,6 +7,7 @@ def process_and_print(input_string):
     # Sort integers in reverse order
   
     # Print sorted integers
+    return
     
 
 if __name__ == "__main__":

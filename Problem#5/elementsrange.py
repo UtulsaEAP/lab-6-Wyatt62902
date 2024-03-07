@@ -1,5 +1,6 @@
 def filter_and_print_range(input_list, min_val, max_val):
     #write your code here
+    return
 
 if __name__ == '__main__':
     # Get input for the list of integers

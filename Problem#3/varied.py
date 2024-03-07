@@ -1,12 +1,12 @@
 def process_input(input_string):
-      # Split into separate strings
-
-    # Convert strings to floats
+    input_string = input_string.split()
+    for i in range(0, len(input_string), 1):
+        input_string[i] = float(input_string[i])
     
 
     # Get max and average
-    max_value = 
-    average_value = 
+    max_value = max(input_string)
+    average_value = sum(input_string) / len(input_string)
     return max_value, average_value
 
 if __name__ == "__main__":
@@ -15,6 +15,8 @@ if __name__ == "__main__":
 
     # Call the function and get the results
     max_value, average_value = process_input(user_input)
+    print(f'{max_value:.2f} {average_value:.2f}')
 
-    print(f'Max Value: {max_value:.2f}')
-    print(f'Average Value: {average_value:.2f}')
+    # print(f'Max Value: {max_value:.2f}')
+    # print(f'Average Value: {average_value:.2f}')
+    
