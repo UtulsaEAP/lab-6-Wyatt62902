@@ -3,7 +3,7 @@ Write a program that gets a list of integers from input, and outputs negative in
 
 Ex: If the input is:
 
-    10 -7 4 -39 -6 12 -2
+    10 -7 4 -39 -6 12 -2 
 the output is:
 
     -2 -6 -7 -39 
