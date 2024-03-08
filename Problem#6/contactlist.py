@@ -5,8 +5,9 @@ Lab Time: Thu 2:00 PM
 def process_user_contacts(user_input):
     phone_book = {}
     current_contact = []
-    user_input = user_input.split()   
-    for i in range(0, len(user_input)-1, 1):
+    user_input = user_input.split()
+   
+    for i in range(0, len(user_input), 1):
         current_contact = user_input[i].split(',')
         phone_book.update({current_contact[0] : current_contact[1]})
     contact_name = input("Enter the contact name: ")

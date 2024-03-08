@@ -1,3 +1,9 @@
+
+'''
+Name: Wyatt Fulton
+Lab Time: Thur 2:00 PM
+'''
+
 def in_order(nums):
     should_be = []
     for i in range(0, len(nums), 1):

@@ -1,3 +1,7 @@
+'''
+Name: Wyatt Fulton
+Lab Time: Thur 6:00PM
+'''
 def process_input(input_string):
     input_string = input_string.split()
     for i in range(0, len(input_string), 1):
