@@ -14,7 +14,7 @@ def food_input():
     back = ' a day keeps you happy and healthy.'
     accumulator = 0
 
-    while 'done' not in user_string:
+    while 'quit' not in user_string:
         user_input = input()
         user_input = user_input.split()
         user_string.append(user_input[0])
