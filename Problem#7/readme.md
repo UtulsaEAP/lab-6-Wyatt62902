@@ -7,7 +7,7 @@ Ex: If the input is:
     Wax
 the output is:
 
-    ZyCar Wash
+    ZyCar Wash 
     Base car wash - $10
     Tire shine - $2
     Wax - $3
